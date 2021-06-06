@@ -10,4 +10,4 @@ This website consists of 7 pages:
 
 The website can be found here:  
 
-https://danijmartin.github.io/Web-Design-Challenge/Resources/humidity.html
+https://danijmartin.github.io/Web-Design-Challenge/index.html
