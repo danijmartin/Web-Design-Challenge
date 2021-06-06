@@ -46,13 +46,19 @@
 	<div class="container">
 		<div class="row mt-md-5">
 			<div class="col-md-8" style="background-color: white;">
-				<h1 style="text-align: center; color: #4aaaa5">Summary: Latitude vs. X</h1>
+				<h1 style="text-align: center; color: #4aaaa5; margin-top: 20px">Summary: Latitude vs. X</h1>
 
-				<div class="clearfix">
-					<img src="Assets\Fig1.png" class="col-md-4 float-md-end mb-3 ms-md-3" alt="Figure 1">
+				<div class="clearfix  m-3">
+					<img src="Assets\lat_vs_temp.png" class="col-md-6 float-md-start mb-3 alt="Figure 1">
 				  
 					<p>
-					  A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+						How does the weather change as one gets closer to the equator? To answer this, we generated a random sample of over 500 cities and pulled their weather data from the OpenWeatherMap API.
+					</p>
+					<p>
+						We focused on four weather factors: temperature, humidity, cloudiness, and wind speed. Once our data was cleaned, we began using Matplotlib to plot these facctors vs. the respective city's latitude. 
+					</p>
+					<p>
+						On this site, we provide the source data and visualizations created, in addition to describing what the visualizations tell us.
 					</p>
 				</div>
 			</div>
