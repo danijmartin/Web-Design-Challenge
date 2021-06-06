@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Latitude Weather Analysis Dashboard</title>
+	<title>Humidity</title>
 
 	<!-- Meta tags needed for Bootstrap to function correctly -->
 	<meta charset="UTF-8">
@@ -15,7 +15,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4aaaa5">
 	  <div class="container-fluid">
-	    <a class="navbar-brand" href="index.html">Weather Data</a>
+	    <a class="navbar-brand" href="..\index.html">Weather Data</a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -43,6 +43,35 @@
 	  </div>
 	</nav>
 
+	<div class="container">
+		<div class="row mt-md-5">
+			<div class="col-md-8" style="background-color: white;">
+				<h1 style="text-align: center; color: #4aaaa5; margin-top: 20px">Humidity</h1>
+
+				<img src="..\Visualizations/lat_vs_humidity.png" class="col-8 mb-3" style="display:block; margin:auto" alt="Latitude vs Humidity">
+				<p>
+					Here we have another interesting scatter plot as we do not see much correlation between latitude and humidity. High humidity can be expected across the globe. Although, if one is looking for a possibility of avoiding high humidity, we would suggest staying between 15-45 degrees north. This is where we see the greatest concentration of lower humidity percentages.
+				</p>
+
+			</div>
+			<div class="col-md-3 offset-md-1" style="background-color: white;">
+				<h1 style="text-align: center; color: #4aaaa5; margin-top: 20px">Visualizations</h1>
+				<hr>
+				<a href="max_temp.html">
+					<img src="..\Visualizations/lat_vs_temp.png" class="col-5 m-2" alt="Latitude vs. Temperature">
+				</a>
+				<a href="cloudiness.html">
+					<img src="..\Visualizations/lat_vs_cloudiness.png" class="col-5 m-2" alt="Latitude vs. Cloudiness">
+				</a>
+				<a href="humidity.html">
+					<img src="..\Visualizations/lat_vs_humidity.png" class="col-md-5 m-2" alt="Latitude vs. Humidity">
+				</a>
+				<a href="wind_speed.html">
+					<img src="..\Visualizations/lat_vs_windspeed.png" class="col-md-5 m-2" alt="Latitude vs. Windspeed">
+				</a>	
+			</div>
+		</div>
+	</div>
 
 
 
